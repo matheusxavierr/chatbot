@@ -1,4 +1,11 @@
 {
+  "name": "chatbot-whatsapp-atendimento",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node chatbot.js",
+    "check": "node --check chatbot.js"
+  },
   "dependencies": {
     "moment-timezone": "^0.5.45",
     "openai": "^4.78.1",
